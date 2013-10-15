@@ -1,0 +1,125 @@
+p.title
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.dark {
+    color: #333!important;
+}
+.white {
+    color: #fff!important;
+}
+.red {
+    color: #dd5a43!important;
+}
+.light-red {
+    color: #f77!important;
+}
+.blue {
+    color: #478fca!important;
+}
+.light-blue {
+    color: #93cbf9!important;
+}
+.green {
+    color: #69aa46!important;
+}
+.light-green {
+    color: #b6e07f!important;
+}
+.orange {
+    color: #ff892a!important;
+}
+.purple {
+    color: #a069c3!important;
+}
+.pink {
+    color: #c6699f!important;
+}
+.pink2 {
+    color: #d6487e!important;
+}
+.brown {
+    color: #a52a2a!important;
+}
+.grey {
+    color: #777!important;
+}
+.light-grey {
+    color: #bbb!important;
+}
+
+#page {
+/*    padding-top: 60px;*/
+}
+
+#modules{
+	list-style-type: none;
+}
+
+#modules>li{
+	float: left;
+	margin-left: 10px;
+}
+
+#Area_carea_description{
+	resize:none;
+}
+
+#area-tree{
+	font-size: 14px;
+}
+
+#spanAreaTitle{
+	padding: 0px 0px 0px 5px !important;
+}
+
+
+#loginf-form{
+	border-style:solid;
+	border-width:2px;
+	padding-top: 20px;
+	padding-left: 16%;
+}
+
+.lbl-pagesize{
+    padding-top: 5px;
+}
+
+.btn-group{
+	line-height: 0 !important;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.login-container {
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+textarea {
+    resize: none;
+}
+
+.firstItem{
+    font-size: 16px;
+}
+
+.firstItem>a{
+    color: #077FF7 !important;
+}
+.firstItem:hover>a{
+    color: black !important;
+}
+
+.client{
+    overflow-x: hidden;
+}
