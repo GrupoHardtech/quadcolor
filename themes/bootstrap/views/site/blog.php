@@ -1,6 +1,3 @@
-<?php include 'header.php'; ?>
-	
-	
 	<div class="heads">
 		<div class="container">
 			<div class="row-fluid">
@@ -99,7 +96,7 @@
 									<li>
 										<div class="column-posts">
 											<div class="featured-post-img">
-												<a href="single.html"><img src="img/manuk.png" alt=""></a>
+												<a href="single.html"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
 											</div>
 											<div class="featured-post-content">
 											<h5>
@@ -112,7 +109,7 @@
 									<li>
 										<div class="column-posts">
 											<div class="featured-post-img">
-												<a href="single.html"><img src="img/manuk.png" alt=""></a>
+												<a href="single.html"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
 											</div>
 											<div class="featured-post-content">
 											<h5>
@@ -125,7 +122,7 @@
 									<li>
 										<div class="column-posts">
 											<div class="featured-post-img">
-												<a href="single.html"><img src="img/manuk.png" alt=""></a>
+												<a href="single.html"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
 											</div>
 											<div class="featured-post-content">
 											<h5>
@@ -157,5 +154,3 @@
 
 		</div>
 	</div>
-	
-<?php include 'footer.php'; ?>

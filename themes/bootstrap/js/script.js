@@ -34,3 +34,18 @@ $(document).ready(function() {
 	});
 
 });
+
+$(document).ready(function() {
+
+	$("#owl-demo").owlCarousel({
+		autoPlay : 3500,
+		stopOnHover : false,
+		navigation: false,
+		paginationSpeed : 1000,
+		goToFirstSpeed : 2000,
+		singleItem : true,
+		autoHeight : true,
+		transitionStyle:"fade"
+	});
+
+});

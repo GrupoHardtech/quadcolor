@@ -1,67 +1,45 @@
-<?php
-/* @var $this SiteController */
-/* @var $model ContactForm */
-/* @var $form TbActiveForm */
-
-$this->pageTitle=Yii::app()->name . ' - Contact Us';
-$this->breadcrumbs=array(
-	'Contact',
-);
-?>
-
-<h1>Contact Us</h1>
-
-<?php if(Yii::app()->user->hasFlash('contact')): ?>
-
-    <?php $this->widget('bootstrap.widgets.TbAlert', array(
-        'alerts'=>array('contact'),
-    )); ?>
-
-<?php else: ?>
-
-<p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-</p>
-
-<div class="form">
-
-<?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
-	'id'=>'contact-form',
-    'type'=>'horizontal',
-	'enableClientValidation'=>true,
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
-)); ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<?php echo $form->errorSummary($model); ?>
-
-    <?php echo $form->textFieldRow($model,'name'); ?>
-
-    <?php echo $form->textFieldRow($model,'email'); ?>
-
-    <?php echo $form->textFieldRow($model,'subject',array('size'=>60,'maxlength'=>128)); ?>
-
-    <?php echo $form->textAreaRow($model,'body',array('rows'=>6, 'class'=>'span8')); ?>
-
-	<?php if(CCaptcha::checkRequirements()): ?>
-		<?php echo $form->captchaRow($model,'verifyCode',array(
-            'hint'=>'Please enter the letters as they are shown in the image above.<br/>Letters are not case-sensitive.',
-        )); ?>
-	<?php endif; ?>
-
-	<div class="form-actions">
-		<?php $this->widget('bootstrap.widgets.TbButton',array(
-            'buttonType'=>'submit',
-            'type'=>'primary',
-            'label'=>'Submit',
-        )); ?>
+	<div class="heads">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12">
+					<h2><span>//</span> Contáctanos</h2>
+				</div>
+			</div>
+		</div>
 	</div>
-
-<?php $this->endWidget(); ?>
-
-</div><!-- form -->
-
-<?php endif; ?>
+	
+	<div class="page-content contact">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12">
+					<ul class="breadcrumb">
+					  <li><a href="index.php">Inicio</a> <span class="divider">/</span></li>
+					  <li class="active">Contáctanos</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row-fluid">
+				<div class="span12 t-center">
+					<!-- <h3>Lorem ipsum dolor sit amet</h3> -->
+					<h3>Si tiene consultas comerciales u otras preguntas, por favor llene el siguiente formulario para contactar con nosotros. Gracias. </h3>
+				</div>
+			</div>
+			<div class="row-fluid padd20-top-btm">
+				<div class="span5">
+					<h4>Enviar mensaje</h4>
+					<form method="post" action="">
+					<input type="text" name="name" class="span12" placeholder="Escribe tu nombre" required>
+					<input type="email" name="email" class="span12" placeholder="Escribe tu correo" required>
+					<input type="text" name="subject" class="span12" placeholder="Escribe el asunto" required>
+				</div>
+				<div class="span7">
+					<textarea name="message" class="span12" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+					<input type="submit" name="submit" value="Enviar mensaje" class="btn btn-warning btn-block btn-large">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- <div id="maps"></div> -->

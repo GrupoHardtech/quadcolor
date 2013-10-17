@@ -1,5 +1,3 @@
-<?php include 'header.php'; ?>
-	
 	<div class="heads">
 		<div class="container">
 			<div class="row-fluid">
@@ -30,20 +28,20 @@
 							
 								<div class="carousel-inner">
 								  <div class="item active">
-									<img src="img/manuk.png" alt="">
+									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="">
 								  </div>
 								  <div class="item">
-									<img src="img/manuk.png" alt="">
+									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="">
 								  </div>
 								  <div class="item">
-									<img src="img/manuk.png" alt="">
+									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="">
 								  </div>
 								</div>
 								
 								<ol class="carousel-indicators">
-								  <li data-target="#itemsingle" data-slide-to="0" class="active"><img src="img/manuk.png" alt=""></li>
-								  <li data-target="#itemsingle" data-slide-to="1" class=""><img src="img/manuk.png" alt=""></li>
-								  <li data-target="#itemsingle" data-slide-to="2" class=""><img src="img/manuk.png" alt=""></li>
+								  <li data-target="#itemsingle" data-slide-to="0" class="active"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></li>
+								  <li data-target="#itemsingle" data-slide-to="1" class=""><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></li>
+								  <li data-target="#itemsingle" data-slide-to="2" class=""><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></li>
 								</ol>
 							
 							</div>
@@ -77,7 +75,7 @@
 										<ul class="thumbnails">
 										  <li class="span4">
 											<div class="thumbnail">
-											  <a href="detail.php"><img src="img/manuk.png" alt=""></a>
+											  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
 											  <div class="caption-details">
 												<h5>Tinta</h5>
 											  </div>
@@ -85,7 +83,7 @@
 										  </li>
 										  <li class="span4">
 											<div class="thumbnail">
-											  <a href="detail.php"><img src="img/manuk.png" alt=""></a>
+											  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
 											  <div class="caption-details">
 												<h5>Tinta</h5>
 											  </div>
@@ -93,7 +91,7 @@
 										  </li>
 										  <li class="span4">
 											<div class="thumbnail">
-											  <a href="detail.php"><img src="img/manuk.png" alt=""></a>
+											  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
 											  <div class="caption-details">
 												<h5>Tinta</h5>
 											  </div>
@@ -125,5 +123,3 @@
 			</div>
 		</div>
 	</div>
-
-<?php include 'footer.php'; ?>

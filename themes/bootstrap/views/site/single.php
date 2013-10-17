@@ -1,6 +1,3 @@
-<?php include 'header.php'; ?>
-	
-	
 	<div class="heads">
 		<div class="container">
 			<div class="row-fluid">
@@ -47,7 +44,7 @@
 							<h3><span class="visible-desktop visible-tablet">5 Comments</span><span class="visible-phone">3 Comments</span></h3>
 							<ul class="comments">
 								<li class="clearfix">
-									<img src="img/avatar.jpg" class="avatar" alt="" />
+									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
 									<div class="post-comments">
 										<p class="meta">December 18, 2012 <a href="#">JohnDoe</a> says:</p>
 										<p>
@@ -57,7 +54,7 @@
 									</div>
 								</li>
 								<li class="clearfix">
-									<img src="img/avatar.jpg" class="avatar" alt="" />
+									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
 									<div class="post-comments">
 										<p class="meta">December 19, 2012 <a href="#">JohnDoe</a> says:</p>
 										<p>
@@ -68,7 +65,7 @@
 									
 									<ul class="comments hidden-phone">
 										<li class="clearfix">
-											<img src="img/avatar.jpg" class="avatar" alt="" />
+											<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
 											<div class="post-comments">
 												<p class="meta">December 20, 2012 <a href="#">JohnDoe</a> says:</p>
 												<p>
@@ -79,7 +76,7 @@
 											
 											<ul class="comments">
 												<li class="clearfix">
-													<img src="img/avatar.jpg" class="avatar" alt="" />
+													<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
 													<div class="post-comments">
 														<p class="meta">December 20, 2012 <a href="#">JohnDoe</a> says:</p>
 														<p>
@@ -93,7 +90,7 @@
 									</ul>
 								</li>
 								<li class="clearfix">
-									<img src="img/avatar.jpg" class="avatar" alt="" />
+									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
 									<div class="post-comments">
 										<p class="meta">December 28, 2012 <a href="#">JohnDoe</a> says:</p>
 										<p>
@@ -145,5 +142,3 @@
 			
 		</div>
 	</div>
-	
-<?php include 'footer.php'; ?>

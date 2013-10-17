@@ -1,5 +1,3 @@
-<?php include('header.php'); ?>
-	
 	<div class="heads">
 		<div class="container">
 			<div class="row-fluid">
@@ -29,13 +27,13 @@
 					<p>Contribuir con todos nuestros socios estratégicos para comprometer el desarrollo corporativo.</p>
 				</div>
 				<div class="span4">
-					<img src="img/s3.jpg" alt="">
+					<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/s3.jpg" alt="">
 				</div>
 			</div>
 			
 			<div class="row-fluid padd20-top-btm">
 				<div class="span4">
-					<img src="img/s3.jpg" alt="">
+					<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/s3.jpg" alt="">
 				</div>
 				<div class="span8">
 					<h3>Visión</h3>
@@ -52,7 +50,7 @@
 					<p>Satisfacción del Cliente</p>
 				</div>
 				<div class="span4">
-					<img src="img/s3.jpg" alt="">
+					<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/s3.jpg" alt="">
 				</div>
 			</div>
 			
@@ -64,5 +62,3 @@
 			</div> -->
 		</div>
 	</div>
-	
-<?php include('footer.php'); ?>

@@ -1,5 +1,3 @@
-<?php include 'header.php'; ?>
-	
 	<div class="heads">
 		<div class="container">
 			<div class="row-fluid">
@@ -118,4 +116,3 @@
 		</div>
 	</div>
 	
-<?php include 'footer.php'; ?>

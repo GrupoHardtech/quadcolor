@@ -106,4 +106,28 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+	public function actionAbout()
+	{
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('about');
+	}
+
+	public function actionBlog()
+	{
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('blog');
+	}
+
+	public function actionProduct()
+	{
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('product');
+	}
+
+	public function actionDetail()
+	{
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('detail');
+	}
 }
