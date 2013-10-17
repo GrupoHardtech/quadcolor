@@ -30,21 +30,21 @@
 				<ul class="thumbnails">
 					<li class="span4">
 						<div class="featured-photos">
-							<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/team3.png" alt="">
+							<img src="img/team3.png" alt="">
 						</div>
 						<h3>graphic designer</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque.</p>
 					</li>
 					<li class="span4">
 						<div class="featured-photos">
-							<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/team2.png" alt="">
+							<img src="img/team2.png" alt="">
 						</div>
 						<h3>programmer</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque.</p>
 					</li>
 					<li class="span4">
 						<div class="featured-photos">
-							<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/team1.png" alt="">
+							<img src="img/team1.png" alt="">
 						</div>
 						<h3>web designer</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque.</p>

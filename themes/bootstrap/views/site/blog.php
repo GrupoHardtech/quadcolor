@@ -13,7 +13,7 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<ul class="breadcrumb">
-					  <li><a href="index.php">Inicio</a> <span class="divider">/</span></li>
+					  <li><a href="index">Inicio</a> <span class="divider">/</span></li>
 					  <li class="active">Noticias</li>
 					</ul>
 				</div>
@@ -28,11 +28,11 @@
 									<span class="the-date"><i class="icon-calendar"></i> 01/06/13</span>
 									<span class="the-comments"><i class="icon-comments"></i> 2</span>
 								</span>
-								<a href="single.php">QuadColor ahora en nuevo envase</a>
+								<a href="single">QuadColor ahora en nuevo envase</a>
 							</h2>
 							<hr>
 							<p>Quad color se renovo y ahora viene en un envase más moderno y con mejor diseño. Todo lo propio de una tinta de excelente calidad.</p>
-							<p><a href="single.php" class="btn btn-warning">Leer más &raquo;</a></p>
+							<p><a href="single" class="btn btn-warning">Leer más &raquo;</a></p>
 							<p class="meta-tags"><i class="icon-tags"></i> <a href="#">Tinta</a>, <a href="#">Envase</a>, <a href="#">Calidad</a></p>
 						</div>
 					</div>
@@ -44,11 +44,11 @@
 									<span class="the-date"><i class="icon-calendar"></i> 01/06/13</span>
 									<span class="the-comments"><i class="icon-comments"></i> 2</span>
 								</span>
-								<a href="single.php">Mira el anuncio de QuadColor</a>
+								<a href="single">Mira el anuncio de QuadColor</a>
 							</h2>
 							<hr>
 							<p>QuadColor lanzó su primer anuncio.</p>
-							<p><a href="single.php" class="btn btn-warning">Leer más &raquo;</a></p>
+							<p><a href="single" class="btn btn-warning">Leer más &raquo;</a></p>
 							<p class="meta-tags"><i class="icon-tags"></i> <a href="#">Tinta</a>, <a href="#">Anuncio</a>, <a href="#">Video</a></p>
 						</div>
 					</div>
@@ -60,11 +60,11 @@
 									<span class="the-date"><i class="icon-calendar"></i> 01/06/13</span>
 									<span class="the-comments"><i class="icon-comments"></i> 2</span>
 								</span>
-								<a href="single.php">Tinta QuadColor, promoción válida del 07 al 10 de agosto</a>
+								<a href="single">Tinta QuadColor, promoción válida del 07 al 10 de agosto</a>
 							</h2>
 							<hr>
 							<p>Apresúrese y compre sus tinta de 120ML al por mayor.</p>
-							<p><a href="single.php" class="btn btn-warning">Leer más &raquo;</a></p>
+							<p><a href="single" class="btn btn-warning">Leer más &raquo;</a></p>
 							<p class="meta-tags"><i class="icon-tags"></i> <a href="#">Tinta</a>, <a href="#">Promoción</a></p>
 						</div>
 					</div>
@@ -96,7 +96,7 @@
 									<li>
 										<div class="column-posts">
 											<div class="featured-post-img">
-												<a href="single.html"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
+												<a href="single.html"><img src="img/manuk.png" alt=""></a>
 											</div>
 											<div class="featured-post-content">
 											<h5>
@@ -109,7 +109,7 @@
 									<li>
 										<div class="column-posts">
 											<div class="featured-post-img">
-												<a href="single.html"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
+												<a href="single.html"><img src="img/manuk.png" alt=""></a>
 											</div>
 											<div class="featured-post-content">
 											<h5>
@@ -122,7 +122,7 @@
 									<li>
 										<div class="column-posts">
 											<div class="featured-post-img">
-												<a href="single.html"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
+												<a href="single.html"><img src="img/manuk.png" alt=""></a>
 											</div>
 											<div class="featured-post-content">
 											<h5>

@@ -13,7 +13,7 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<ul class="breadcrumb">
-					  <li><a href="index.php">Inicio</a> <span class="divider">/</span></li>
+					  <li><a href="index">Inicio</a> <span class="divider">/</span></li>
 					  <li class="active">Acerca de nosotros</li>
 					</ul>
 				</div>
@@ -27,38 +27,42 @@
 					<p>Contribuir con todos nuestros socios estratégicos para comprometer el desarrollo corporativo.</p>
 				</div>
 				<div class="span4">
-					<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/s3.jpg" alt="">
+					<img src="img/s3.jpg" alt="">
 				</div>
 			</div>
 			
 			<div class="row-fluid padd20-top-btm">
 				<div class="span4">
-					<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/s3.jpg" alt="">
+					<img src="img/s3.jpg" alt="">
 				</div>
 				<div class="span8">
 					<h3>Visión</h3>
-					<p>Convertirse en la Mejor empresa proveedora a nivel global de suministros de Impresión, aportando en los diferentes mercados mejores precios y calidad, para satisfacer a nuestros clientes, así como aplicar políticas de responsabilidad medio ambiental para preservar el medio ambiente.</p>
+					<p id="vision">Convertirse en la Mejor empresa proveedora a nivel global de suministros de Impresión, aportando en los diferentes mercados mejores precios y calidad, para satisfacer a nuestros clientes, así como aplicar políticas de responsabilidad medio ambiental para preservar el medio ambiente.</p>
 				</div>
 			</div>
 
-			<div class="row-fluid">
+			<!-- <div class="row-fluid">
 				<div class="span8">
-					<h3>Valores</h3>
+					<h3>Políticas</h3>
 					<p>Eficiencia</p>
 					<p>Confianza</p>
 					<p>Profesionalidad</p>
 					<p>Satisfacción del Cliente</p>
 				</div>
 				<div class="span4">
-					<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/s3.jpg" alt="">
-				</div>
-			</div>
-			
-			<!-- <div class="row-fluid padd20-top-btm">
-				<div class="span12 t-center">
-					<h3>Lorem ipsum dolor sit amet</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque.</p>
+					<img src="img/s3.jpg" alt="">
 				</div>
 			</div> -->
+			
+			<div class="row-fluid padd20-top-btm">
+				<div class="span12 t-center">
+					<!-- <h3>Lorem ipsum dolor sit amet</h3> -->
+					<h4>Por que nuestros clientes se merecen lo mejor, nuestros productos cuentan con las siguientes características:</h4>
+					<img src="img/recycle.png" alt="">
+					<img src="img/compatibles.png" alt="">
+					<img src="img/iso_9001.png" alt="">
+					<img src="img/iso_14001.png" alt="">
+				</div>
+			</div>
 		</div>
 	</div>

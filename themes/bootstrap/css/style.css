@@ -4,6 +4,10 @@
 	height: auto;
 }
 
+#vision{
+	line-height: 300%;
+}
+
 /*
 	========================================
 	TABLE OF CONTENT
@@ -1460,7 +1464,7 @@ border-bottom: 1px dotted #E2E2E2;
 /* head single */
 .heads{
 	width: 100%;
-	background: url(../img/s2.jpg) no-repeat fixed center center transparent;
+	background: url(../../../img/s2.jpg) no-repeat fixed center center transparent;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.jpg',sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.jpg',sizingMethod='scale')";
 	background-size:cover;

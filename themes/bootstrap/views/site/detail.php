@@ -13,9 +13,15 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<ul class="breadcrumb">
-					  <li><a href="index.php">Inicio</a> <span class="divider">/</span></li>
-					  <li><a href="product.php">Productos</a> <span class="divider">/</span></li>
-					  <li class="active">Producto 1</li>
+					  <li><a href="index">Inicio</a> <span class="divider">/</span></li>
+					  <li><a href="product">Productos</a> <span class="divider">/</span></li>
+					  <?php if($id==1){?>
+					  <li class="active">Sistema de tinta continua</li>
+					  <?php  } elseif ($id==2) {?>
+					  <li class="active">Paquete de tintas de 120 ml</li>
+					  <?php }else{ ?>
+					  <li class="active">Toner compatible</li>
+					  <?php } ?>
 					</ul>
 				</div>
 			</div>
@@ -28,32 +34,43 @@
 							
 								<div class="carousel-inner">
 								  <div class="item active">
-									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="">
+									<img src="img/cyan_ink.png" alt="">
 								  </div>
 								  <div class="item">
-									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="">
+									<img src="img/cyan_ink.png" alt="">
 								  </div>
 								  <div class="item">
-									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="">
+									<img src="img/cyan_ink.png" alt="">
 								  </div>
 								</div>
 								
 								<ol class="carousel-indicators">
-								  <li data-target="#itemsingle" data-slide-to="0" class="active"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></li>
-								  <li data-target="#itemsingle" data-slide-to="1" class=""><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></li>
-								  <li data-target="#itemsingle" data-slide-to="2" class=""><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></li>
+								  <li data-target="#itemsingle" data-slide-to="0" class="active"><img src="img/cyan_ink.png" alt=""></li>
+								  <li data-target="#itemsingle" data-slide-to="1" class=""><img src="img/cyan_ink.png" alt=""></li>
+								  <li data-target="#itemsingle" data-slide-to="2" class=""><img src="img/cyan_ink.png" alt=""></li>
 								</ol>
 							
 							</div>
 						</div>
 						<div class="span7">
-							<h3>Tinta</h3>
-							<p>	La presentación más económica de tintas QuadColor para que recargue varias veces su sistema continuo.</p>
-							<p>Código de producto : <span class="label label-warning">#2120</span></p>
+							<?php if($id==1){ ?>
+							<h3>Sistema de tinta continua</h3>
+							<p>Imprima sin preocupaciones. Los sistemas de tinta continua QuadColor le garantizan varias semanas de impresión con excelente calidad.</p>
+							<!-- <p>Código de producto : <span class="label label-warning">#2120</span></p> -->
+							<?php  } elseif ($id==2) {?>
+							<h3>Paquete de tintas de 120 ml</h3>
+							<p>La presentación más económica de tintas QuadColor para que recargue varias veces su sistema continuo.</p>
+							<!-- <p>Código de producto : <span class="label label-warning">#2120</span></p> -->
+							<?php }else{ ?>
+							<h3>Toner compatible</h3>
+							<p>Toner compatible de excelente calidad.</p>
+							<!-- <p>Código de producto : <span class="label label-warning">#2120</span></p> -->
+							<?php } ?>
+							
 						</div>
 					</div>
 					
-					<div class="row-fluid">
+					<!-- <div class="row-fluid">
 						<div class="span12">
 							<div class="tabbable">
 							  <ul class="nav nav-tabs">
@@ -75,7 +92,7 @@
 										<ul class="thumbnails">
 										  <li class="span4">
 											<div class="thumbnail">
-											  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
+											  <a href="detail"><img src="img/manuk.png" alt=""></a>
 											  <div class="caption-details">
 												<h5>Tinta</h5>
 											  </div>
@@ -83,7 +100,7 @@
 										  </li>
 										  <li class="span4">
 											<div class="thumbnail">
-											  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
+											  <a href="detail"><img src="img/manuk.png" alt=""></a>
 											  <div class="caption-details">
 												<h5>Tinta</h5>
 											  </div>
@@ -91,7 +108,7 @@
 										  </li>
 										  <li class="span4">
 											<div class="thumbnail">
-											  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt=""></a>
+											  <a href="detail"><img src="img/manuk.png" alt=""></a>
 											  <div class="caption-details">
 												<h5>Tinta</h5>
 											  </div>
@@ -103,7 +120,7 @@
 							  </div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				
 				<!--break-->
@@ -113,8 +130,9 @@
 						<div class="span12">
 							<h3>Categorías</h3>
 							<ul class="nav nav-tabs nav-stacked">
-							  <li class="active"><a href="product.php">Tintas</a></li>
-							  <li><a href="product.php">Toners</a></li>
+							  <li class="active"><a href="product">Tintas</a></li>
+							  <li><a href="product">Toners</a></li>
+							  <li><a href="product">Sistemas contínuos</a></li>
 							</ul>
 						</div>
 					</div>

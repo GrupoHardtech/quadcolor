@@ -13,7 +13,7 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<ul class="breadcrumb">
-					  <li><a href="index.php">Inicio</a> <span class="divider">/</span></li>
+					  <li><a href="index">Inicio</a> <span class="divider">/</span></li>
 					  <li class="active">Contáctanos</li>
 					</ul>
 				</div>

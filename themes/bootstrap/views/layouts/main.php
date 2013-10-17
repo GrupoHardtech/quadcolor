@@ -57,7 +57,7 @@ switch($this->action->id)
   <![endif]-->
 
   <!-- Fav and touch icons -->
-  <link rel="icon" type="image/png"  href="<?php echo Yii::app()->theme->baseUrl; ?>/img/ico/favicon.png">
+  <link rel="icon" type="image/png"  href="img/ico/favicon.png">
 </head>
 
   <body>
@@ -74,15 +74,15 @@ switch($this->action->id)
   					<ul class="nav nav-left">
   						<li <?php echo $a; ?>><a href="index">Inicio</a></li>
   						<li <?php echo $b; ?>><a href="about">Nosotros</a></li>
-              <li <?php echo $c; ?>><a href="product">Productos</a></li>
   					</ul>
   					<div class="logo visible-desktop">
-  						<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/ico/favicon.png" alt="responsive catalog themes">
+  						<img src="img/ico/favicon.png" alt="responsive catalog themes">
   					</div>
   					<div id="brand" class="visible-desktop">&nbsp;</div>
   					<ul class="nav nav-right">
+              <li <?php echo $c; ?>><a href="product">Productos</a></li>
               <li <?php echo $d; ?>><a href="contact">Contáctanos</a></li>
-  						<li <?php echo $e; ?>><a href="contact">Ingresar</a></li>
+  						<!-- <li <?php echo $e; ?>><a href="contact">Ingresar</a></li> -->
   						<!-- <li class="dropdown">
   							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos <b class="caret"></b></a>
   							<ul class="dropdown-menu animated fadeInUp">

@@ -1,8 +1,8 @@
 <div id="owl-demo" class="owl-carousel owl-theme">
 
-		<div class="item"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/banner01.jpg" alt=""></div>
-		<div class="item"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/banner02.jpg" alt=""></div>
-		<div class="item"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/banner03.jpg" alt=""></div>
+		<div class="item"><img src="img/banner01.jpg" alt=""></div>
+		<div class="item"><img src="img/banner02.jpg" alt=""></div>
+		<div class="item"><img src="img/banner03.jpg" alt=""></div>
 
 	</div>
 	
@@ -55,76 +55,31 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<h2>Productos</h2>
-					<p>Lo mejor de lo más buscado en el 2013</p>
+					<p>Nuestros productos</p>
 					<ul class="thumbnails">
-					  <li class="span3">
+					  <li class="span4">
 						<div class="thumbnail">
-						  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="" /></a>
+						  <?php echo CHtml::link('<img src="img/sistema01.png" alt="" />',array('site/detail','id'=>'1')); ?>
 						  <div class="caption-details">
-							<h3>Tintas</h3>
+							<h3>Sistema de tinta continua</h3>
 							<!-- <span class="price">$200</span> -->
 						  </div>
 						</div>
 					  </li>
-					  <li class="span3">
+					  <li class="span4">
 						<div class="thumbnail">
-						  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="" /></a>
+						  <?php echo CHtml::link('<img src="img/cyan_ink.png" alt="" />', array('site/detail','id'=>'2')) ?>
 						  <div class="caption-details">
-							<h3>Tintas</h3>
+							<h3>Paquete de tintas de 120 ml</h3>
 							<!-- <span class="price">$200</span> -->
 						  </div>
 						</div>
 					  </li>
-					  <li class="span3">
+					  <li class="span4">
 						<div class="thumbnail">
-						  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="" /></a>
+						  <?php echo CHtml::link('<img src="img/toner01.png" alt="" />', array('site/detail','id'=>'3')) ?>
 						  <div class="caption-details">
-							<h3>Tintas</h3>
-							<!-- <span class="price">$200</span> -->
-						  </div>
-						</div>
-					  </li>
-					  <li class="span3">
-						<div class="thumbnail">
-						  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="" /></a>
-						  <div class="caption-details">
-							<h3>Tintas</h3>
-							<!-- <span class="price">$200</span> -->
-						  </div>
-						</div>
-					  </li>
-					   <li class="span3">
-						<div class="thumbnail">
-						  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="" /></a>
-						  <div class="caption-details">
-							<h3>Tintas</h3>
-							<!-- <span class="price">$200</span> -->
-						  </div>
-						</div>
-					  </li>
-					  <li class="span3">
-						<div class="thumbnail">
-						  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="" /></a>
-						  <div class="caption-details">
-							<h3>Tintas</h3>
-							<!-- <span class="price">$200</span> -->
-						  </div>
-						</div>
-					  </li>
-					  <li class="span3">
-						<div class="thumbnail">
-						  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="" /></a>
-						  <div class="caption-details">
-							<h3>Tintas</h3>
-							<!-- <span class="price">$200</span> -->
-						  </div>
-						</div>
-					  </li>
-					  <li class="span3">
-						<div class="thumbnail">
-						  <a href="detail.php"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/manuk.png" alt="" /></a>
-						  <div class="caption-details">
-							<h3>Tintas</h3>
+							<h3>Toner compatible</h3>
 							<!-- <span class="price">$200</span> -->
 						  </div>
 						</div>

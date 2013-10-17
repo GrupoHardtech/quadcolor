@@ -13,8 +13,8 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<ul class="breadcrumb">
-					  <li><a href="index.php">Inicio</a> <span class="divider">/</span></li>
-					  <li><a href="blog.php">Noticias</a> <span class="divider">/</span></li>
+					  <li><a href="index">Inicio</a> <span class="divider">/</span></li>
+					  <li><a href="blog">Noticias</a> <span class="divider">/</span></li>
 					  <li class="active">QuadColor ahora en nuevo envase</li>
 					</ul>
 				</div>
@@ -44,7 +44,7 @@
 							<h3><span class="visible-desktop visible-tablet">5 Comments</span><span class="visible-phone">3 Comments</span></h3>
 							<ul class="comments">
 								<li class="clearfix">
-									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
+									<img src="img/avatar.jpg" class="avatar" alt="" />
 									<div class="post-comments">
 										<p class="meta">December 18, 2012 <a href="#">JohnDoe</a> says:</p>
 										<p>
@@ -54,7 +54,7 @@
 									</div>
 								</li>
 								<li class="clearfix">
-									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
+									<img src="img/avatar.jpg" class="avatar" alt="" />
 									<div class="post-comments">
 										<p class="meta">December 19, 2012 <a href="#">JohnDoe</a> says:</p>
 										<p>
@@ -65,7 +65,7 @@
 									
 									<ul class="comments hidden-phone">
 										<li class="clearfix">
-											<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
+											<img src="img/avatar.jpg" class="avatar" alt="" />
 											<div class="post-comments">
 												<p class="meta">December 20, 2012 <a href="#">JohnDoe</a> says:</p>
 												<p>
@@ -76,7 +76,7 @@
 											
 											<ul class="comments">
 												<li class="clearfix">
-													<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
+													<img src="img/avatar.jpg" class="avatar" alt="" />
 													<div class="post-comments">
 														<p class="meta">December 20, 2012 <a href="#">JohnDoe</a> says:</p>
 														<p>
@@ -90,7 +90,7 @@
 									</ul>
 								</li>
 								<li class="clearfix">
-									<img src="<?php echo Yii::app()->theme->baseUrl; ?>/img/avatar.jpg" class="avatar" alt="" />
+									<img src="img/avatar.jpg" class="avatar" alt="" />
 									<div class="post-comments">
 										<p class="meta">December 28, 2012 <a href="#">JohnDoe</a> says:</p>
 										<p>
