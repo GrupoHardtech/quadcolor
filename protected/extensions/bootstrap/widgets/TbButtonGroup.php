@@ -127,7 +127,7 @@ class TbButtonGroup extends CWidget
 				array(
 					'buttonType' => isset($button['buttonType']) ? $button['buttonType'] : $this->buttonType,
 					'type' => isset($button['type']) ? $button['type'] : $this->type,
-					'size' => isset($button['size']) ? $button['size'] : $this->size,
+					'size' => $this->size, // all buttons in a group cannot vary in size
 					'icon' => isset($button['icon']) ? $button['icon'] : null,
 					'label' => isset($button['label']) ? $button['label'] : null,
 					'url' => isset($button['url']) ? $button['url'] : null,
