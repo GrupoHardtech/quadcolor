@@ -1,85 +1,45 @@
-<?php
-/* @var $this SiteController */
-/* @var $model ContactForm */
-/* @var $form CActiveForm */
-
-$this->pageTitle=Yii::app()->name . ' - Contact Us';
-$this->breadcrumbs=array(
-	'Contact',
-);
-?>
-
-<h1>Contact Us</h1>
-
-<?php if(Yii::app()->user->hasFlash('contact')): ?>
-
-<div class="flash-success">
-	<?php echo Yii::app()->user->getFlash('contact'); ?>
-</div>
-
-<?php else: ?>
-
-<p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-</p>
-
-<div class="form">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'contact-form',
-	'enableClientValidation'=>true,
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
-)); ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<?php echo $form->errorSummary($model); ?>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name'); ?>
-		<?php echo $form->error($model,'name'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->textField($model,'email'); ?>
-		<?php echo $form->error($model,'email'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'subject'); ?>
-		<?php echo $form->textField($model,'subject',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'subject'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'body'); ?>
-		<?php echo $form->textArea($model,'body',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'body'); ?>
-	</div>
-
-	<?php if(CCaptcha::checkRequirements()): ?>
-	<div class="row">
-		<?php echo $form->labelEx($model,'verifyCode'); ?>
-		<div>
-		<?php $this->widget('CCaptcha'); ?>
-		<?php echo $form->textField($model,'verifyCode'); ?>
+	<div class="heads">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12">
+					<h2><span>//</span> Contáctanos</h2>
+				</div>
+			</div>
 		</div>
-		<div class="hint">Please enter the letters as they are shown in the image above.
-		<br/>Letters are not case-sensitive.</div>
-		<?php echo $form->error($model,'verifyCode'); ?>
 	</div>
-	<?php endif; ?>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Submit'); ?>
+	
+	<div class="page-content contact">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12">
+					<ul class="breadcrumb">
+					  <li><a href="index">Inicio</a> <span class="divider">/</span></li>
+					  <li class="active">Contáctanos</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row-fluid">
+				<div class="span12 t-center">
+					<!-- <h3>Lorem ipsum dolor sit amet</h3> -->
+					<h3>Si tiene consultas comerciales u otras preguntas, por favor llene el siguiente formulario para contactar con nosotros. Gracias. </h3>
+				</div>
+			</div>
+			<div class="row-fluid padd20-top-btm">
+				<div class="span5">
+					<h4>Enviar mensaje</h4>
+					<form method="post" action="">
+					<input type="text" name="name" class="span12" placeholder="Escribe tu nombre" required>
+					<input type="email" name="email" class="span12" placeholder="Escribe tu correo" required>
+					<input type="text" name="subject" class="span12" placeholder="Escribe el asunto" required>
+				</div>
+				<div class="span7">
+					<textarea name="message" class="span12" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+					<input type="submit" name="submit" value="Enviar mensaje" class="btn btn-warning btn-block btn-large">
+					</form>
+				</div>
+			</div>
+		</div>
 	</div>
-
-<?php $this->endWidget(); ?>
-
-</div><!-- form -->
-
-<?php endif; ?>
+	
+	<!-- <div id="maps"></div> -->
