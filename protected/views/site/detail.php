@@ -62,6 +62,7 @@ $c="";
 								  	<?php  } elseif ($id==2) {$b='class="active"';?>
 									<img src="img/yellow_ink.png" alt="">
 								  	<?php }else{ $c='class="active"';?>
+									<img src="img/toner03.png" alt="">
 								  	<?php } ?>
 								  </div>
 								</div>
@@ -78,6 +79,7 @@ $c="";
 								  	<?php }else{ $c='class="active"';?>
 									<li data-target="#itemsingle" data-slide-to="0" class="active"><img src="img/toner01.png" alt=""></li>
 									<li data-target="#itemsingle" data-slide-to="1" class=""><img src="img/toner02.png" alt=""></li>
+									<li data-target="#itemsingle" data-slide-to="2" class=""><img src="img/toner03.png" alt=""></li>
 								  	<?php } ?>
 								  
 								</ol>
