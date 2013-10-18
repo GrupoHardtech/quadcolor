@@ -28,7 +28,7 @@
 					<p><a href="<?php echo Yii::app()->request->baseUrl; ?>">Ir al inicio</a> | <a href="javascript:history.back()">Regresar a la página anterior</a></p>
 				</div>
 				<div class="span4">
-					<img src="img/paint.jpg" alt="">
+					<img src="img/paint.png" alt="">
 				</div>
 			</div>
 		</div>

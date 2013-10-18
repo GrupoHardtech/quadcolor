@@ -26,7 +26,7 @@
 					<p>QuadColor , cubre un área de 12.000 metros cuadrados , tiene una capacidad de producción anual de 6.000 toneladas. Hay alrededor de 200 empleados, en la que la I + D y el personal de control de calidad representan más del 30 %.</p>
 				</div>
 				<div class="span4">
-					<img src="img/baby.jpg" alt="">
+					<img src="img/baby.png" alt="">
 				</div>
 			</div>
 
@@ -83,13 +83,13 @@
 					<p>Contribuir con todos nuestros socios estratégicos para comprometer el desarrollo corporativo.</p>
 				</div>
 				<div class="span4">
-					<img src="img/mision.jpg" alt="">
+					<img src="img/mision.png" alt="">
 				</div>
 			</div>
 			
 			<div class="row-fluid padd20-top-btm">
 				<div class="span4">
-					<img src="img/vision.jpg" alt="">
+					<img src="img/vision.png" alt="">
 				</div>
 				<div class="span8">
 					<h3>Visión</h3>
