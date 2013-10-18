@@ -65,12 +65,12 @@ switch($this->action->id)
   	<div class="navbar navbar-fixed-top">
   		<div class="navbar-inner">
   			<div class="container">
-  				<a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+  				<!-- <a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
-  				</a>
-  				<div class="nav-collapse collapse navbar-responsive-collapse">
+  				</a> -->
+  				<!-- <div class="nav-collapse collapse navbar-responsive-collapse"> -->
   					<ul class="nav nav-left">
   						<li <?php echo $a; ?>><a href="index">Inicio</a></li>
   						<li <?php echo $b; ?>><a href="about">Nosotros</a></li>
@@ -95,7 +95,7 @@ switch($this->action->id)
   							</ul>
   						</li> -->
   					</ul>
-  				</div><!-- /.nav-collapse -->
+  				<!--</div> /.nav-collapse -->
   			</div>
   		</div><!-- /navbar-inner -->
   	</div>
