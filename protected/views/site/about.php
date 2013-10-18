@@ -25,7 +25,7 @@
 					<p id="about">QuadColor Ltd., que es una empresa de alta tecnología en insumos de impresion fundada en 2004, está situado Zhuhai. Nuestra fábrica, cuenta con una gama de productos utilizados exclusivamente para las impresoras de inyección de tinta, impresoras formato grande e impresoras de impresión textil. Quad Color se especializa en la Getion de I+D.</p>
 				</div>
 				<div class="span4">
-					<img src="img/IMG.png" alt="">
+					<img src="img/baby.jpg" alt="">
 				</div>
 			</div>
 
@@ -84,13 +84,13 @@
 					<p>Contribuir con todos nuestros socios estratégicos para comprometer el desarrollo corporativo.</p>
 				</div>
 				<div class="span4">
-					<img src="img/s2.jpg" alt="">
+					<img src="img/mision.jpg" alt="">
 				</div>
 			</div>
 			
 			<div class="row-fluid padd20-top-btm">
 				<div class="span4">
-					<img src="img/s2.jpg" alt="">
+					<img src="img/vision.jpg" alt="">
 				</div>
 				<div class="span8">
 					<h3>Visión</h3>
