@@ -116,7 +116,7 @@
 			<div class="row-fluid padd20-top-btm">
 				<div class="span12 t-center">
 					<h4>Por que nuestros clientes se merecen lo mejor, nuestros productos cuentan con las siguientes características:</h4>
-					<img src="img/recycle.png" alt="">
+					<img src="img/recycle2.png" alt="">
 					<img src="img/compatibles.png" alt="">
 					<img src="img/iso_9001.png" alt="">
 					<img src="img/iso_14001.png" alt="">
