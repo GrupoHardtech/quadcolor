@@ -22,7 +22,7 @@
 			<div class="row-fluid">
 				<div class="span8">
 					<h3>Nuestra historia</h3>
-					<p id="about">QuadColor Ltd., que es una empresa de alta tecnología en insumos de impresion, fundada en 2004, está situado Zhuhai. Nuestra fábrica, cuenta con una gama de productos utilizados exclusivamente para las impresoras de inyección de tinta, impresoras formato grande e impresoras de impresión textil. Quad Color se especializa en la Getion de I+D.</p>
+					<p id="about">QuadColor Ltd., que es una empresa de alta tecnología en insumos de impresion fundada en 2004, está situado Zhuhai. Nuestra fábrica, cuenta con una gama de productos utilizados exclusivamente para las impresoras de inyección de tinta, impresoras formato grande e impresoras de impresión textil. Quad Color se especializa en la Getion de I+D.</p>
 				</div>
 				<div class="span4">
 					<img src="img/IMG.png" alt="">
@@ -84,17 +84,32 @@
 					<p>Contribuir con todos nuestros socios estratégicos para comprometer el desarrollo corporativo.</p>
 				</div>
 				<div class="span4">
-					<img src="img/s3.jpg" alt="">
+					<img src="img/s2.jpg" alt="">
 				</div>
 			</div>
 			
 			<div class="row-fluid padd20-top-btm">
 				<div class="span4">
-					<img src="img/s3.jpg" alt="">
+					<img src="img/s2.jpg" alt="">
 				</div>
 				<div class="span8">
 					<h3>Visión</h3>
 					<p id="about">Convertirse en la Mejor empresa proveedora a nivel global de suministros de Impresión, aportando en los diferentes mercados mejores precios y calidad, para satisfacer a nuestros clientes, así como aplicar políticas de responsabilidad medio ambiental para preservar el medio ambiente.</p>
+				</div>
+			</div>
+
+			<div class="row-fluid padd20-top-btm">
+				<div class="span12 text-center">
+					<div id="owl-demo2" class="owl-carousel owl-theme">
+						<div class="item"><img src="img/RD1.png" alt=""></div>
+						<div class="item"><img src="img/RD2.png" alt=""></div>
+						<div class="item"><img src="img/RD3.png" alt=""></div>
+						<div class="item"><img src="img/RD4.png" alt=""></div>
+						<div class="item"><img src="img/RD5.png" alt=""></div>
+						<div class="item"><img src="img/RD6.png" alt=""></div>
+						<div class="item"><img src="img/RD7.png" alt=""></div>
+						<div class="item"><img src="img/RD8.png" alt=""></div>
+					</div>					
 				</div>
 			</div>
 			
@@ -107,5 +122,6 @@
 					<img src="img/iso_14001.png" alt="">
 				</div>
 			</div>
+			
 		</div>
 	</div>

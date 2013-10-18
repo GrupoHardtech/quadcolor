@@ -1,3 +1,8 @@
+<?php
+$a="";
+$b="";
+$c="";
+?>
 	<div class="heads">
 		<div class="container">
 			<div class="row-fluid">
@@ -15,11 +20,11 @@
 					<ul class="breadcrumb">
 					  <li><a href="index">Inicio</a> <span class="divider">/</span></li>
 					  <li><a href="product">Productos</a> <span class="divider">/</span></li>
-					  <?php if($id==1){?>
+					  <?php if($id==1){ $a='class="active"';?>
 					  <li class="active">Sistema de tinta continua</li>
-					  <?php  } elseif ($id==2) {?>
+					  <?php  } elseif ($id==2) {$b='class="active"';?>
 					  <li class="active">Paquete de tintas de 120 ml</li>
-					  <?php }else{ ?>
+					  <?php }else{ $c='class="active"';?>
 					  <li class="active">Toner compatible</li>
 					  <?php } ?>
 					</ul>
@@ -130,9 +135,9 @@
 						<div class="span12">
 							<h3>Categorías</h3>
 							<ul class="nav nav-tabs nav-stacked">
-							  <li class="active"><a href="product">Tintas</a></li>
-							  <li><a href="product">Toners</a></li>
-							  <li><a href="product">Sistemas contínuos</a></li>
+							  <li <?php echo $a; ?>><a href="product">Sistemas contínuos</a></li>
+							  <li <?php echo $b; ?>><a href="product">Tintas</a></li>
+							  <li <?php echo $c; ?>><a href="product">Toners</a></li>
 							</ul>
 						</div>
 					</div>

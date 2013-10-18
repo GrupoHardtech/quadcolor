@@ -33,14 +33,21 @@ $(document).ready(function() {
 		interval: false
 	});
 
-});
-
-$(document).ready(function() {
-
 	$("#owl-demo").owlCarousel({
 		autoPlay : 3500,
 		stopOnHover : false,
 		navigation: false,
+		paginationSpeed : 1000,
+		goToFirstSpeed : 2000,
+		singleItem : true,
+		autoHeight : true,
+		transitionStyle:"fade"
+	});
+
+	$("#owl-demo2").owlCarousel({
+		autoPlay : 3500,
+		stopOnHover : false,
+		navigation: true,
 		paginationSpeed : 1000,
 		goToFirstSpeed : 2000,
 		singleItem : true,
