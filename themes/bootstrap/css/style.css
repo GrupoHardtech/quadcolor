@@ -182,7 +182,7 @@ a:hover{
 .btn {
  	border: none;
 	background: #BDC3C7;
-	color: white;
+	color: gray;
 	font-size: 14px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -200,7 +200,7 @@ a:hover{
 
 .btn:hover, .btn:focus {
 	background-color: #95A5A6;
-	color: white;
+	color: gray;
 	-webkit-transition: 0.25s;
 	-moz-transition: 0.25s;
 	-o-transition: 0.25s;
@@ -1768,7 +1768,7 @@ border-bottom: 1px dotted #E2E2E2;
 .confirm input[type="text"]:focus,
 .confirm input[type="email"]:focus,
 .confirm textarea:focus{
-	color: #A3BD31;
+	color: black;
 	-webkit-box-shadow: 0 0 1px 2px #A3BD31 !important; 
      -moz-box-shadow: 0 0 1px 2px #A3BD31 !important;
           box-shadow: 0 0 1px 2px #A3BD31 !important;
