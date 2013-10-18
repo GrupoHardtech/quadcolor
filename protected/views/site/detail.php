@@ -135,9 +135,9 @@ $c="";
 						<div class="span12">
 							<h3>Categorías</h3>
 							<ul class="nav nav-tabs nav-stacked">
-							  <li <?php echo $a; ?>><a href="product">Sistemas contínuos</a></li>
-							  <li <?php echo $b; ?>><a href="product">Tintas</a></li>
-							  <li <?php echo $c; ?>><a href="product">Toners</a></li>
+							  <li <?php echo $a; ?>><?php echo CHtml::link('Sistemas continuos',array('site/detail','id'=>'1')); ?></li>
+							  <li <?php echo $b; ?>><?php echo CHtml::link('Tintas', array('site/detail','id'=>'2')) ?></li>
+							  <li <?php echo $c; ?>><?php echo CHtml::link('Toners', array('site/detail','id'=>'3')) ?></li>
 							</ul>
 						</div>
 					</div>
