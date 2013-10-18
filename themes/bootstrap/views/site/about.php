@@ -20,6 +20,17 @@
 			</div>
 			
 			<div class="row-fluid">
+				<!-- <h2>Nuestra historia</h2> -->
+				<div class="span8">
+					<!-- <h3>Misión</h3> -->
+					<p>QuadColor Ltd., que es una empresa de alta tecnología en insumos de impresion, fundada en 2004, está situado Zhuhai. Nuestra fábrica, cuenta con una gama de productos utilizados exclusivamente para las impresoras de inyección de tinta, impresoras formato grande e impresoras de impresión textil. Quad Color se especializa en la Getion de I+D.</p>
+				</div>
+				<div class="span4">
+					<img src="img/s3.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="row-fluid padd20-top-btm">
 				<div class="span8">
 					<h3>Misión</h3>
 					<p>Generar productos de valor agregado para nuestros clientes y socios.</p>
@@ -40,23 +51,9 @@
 					<p id="vision">Convertirse en la Mejor empresa proveedora a nivel global de suministros de Impresión, aportando en los diferentes mercados mejores precios y calidad, para satisfacer a nuestros clientes, así como aplicar políticas de responsabilidad medio ambiental para preservar el medio ambiente.</p>
 				</div>
 			</div>
-
-			<!-- <div class="row-fluid">
-				<div class="span8">
-					<h3>Políticas</h3>
-					<p>Eficiencia</p>
-					<p>Confianza</p>
-					<p>Profesionalidad</p>
-					<p>Satisfacción del Cliente</p>
-				</div>
-				<div class="span4">
-					<img src="img/s3.jpg" alt="">
-				</div>
-			</div> -->
 			
 			<div class="row-fluid padd20-top-btm">
 				<div class="span12 t-center">
-					<!-- <h3>Lorem ipsum dolor sit amet</h3> -->
 					<h4>Por que nuestros clientes se merecen lo mejor, nuestros productos cuentan con las siguientes características:</h4>
 					<img src="img/recycle.png" alt="">
 					<img src="img/compatibles.png" alt="">
