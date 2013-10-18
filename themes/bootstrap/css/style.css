@@ -899,8 +899,8 @@ div.thumbnails div.span12 + div  {
 	width: 100%;
 	/*background: url(../img/s2.jpg) no-repeat fixed center center transparent;*/
 	background-color: #A8A8A8;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.jpg',sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.jpg',sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.png',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.png',sizingMethod='scale')";
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1464,9 +1464,9 @@ border-bottom: 1px dotted #E2E2E2;
 /* head single */
 .heads{
 	width: 100%;
-	background: url(../../../img/s2.jpg) no-repeat fixed center center transparent;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.jpg',sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.jpg',sizingMethod='scale')";
+	background: url(../../../img/s2.png) no-repeat fixed center center transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.png',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/s2.png',sizingMethod='scale')";
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;

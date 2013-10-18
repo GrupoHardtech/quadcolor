@@ -39,20 +39,49 @@ $c="";
 							
 								<div class="carousel-inner">
 								  <div class="item active">
+								  	<?php if($id==1){ $a='class="active"';?>
+									<img src="img/sistema01.png" alt="">
+								  	<?php  } elseif ($id==2) {$b='class="active"';?>
 									<img src="img/cyan_ink.png" alt="">
+								  	<?php }else{ $c='class="active"';?>
+									<img src="img/toner01.png" alt="">
+								  	<?php } ?>
 								  </div>
 								  <div class="item">
-									<img src="img/cyan_ink.png" alt="">
+								  	<?php if($id==1){ $a='class="active"';?>
+									<img src="img/sistema02.png" alt="">
+								  	<?php  } elseif ($id==2) {$b='class="active"';?>
+									<img src="img/magenta_ink.png" alt="">
+								  	<?php }else{ $c='class="active"';?>
+									<img src="img/yellow_ink.png" alt="">
+								  	<?php } ?>
 								  </div>
 								  <div class="item">
-									<img src="img/cyan_ink.png" alt="">
+								  	<?php if($id==1){ $a='class="active"';?>
+									<img src="img/sistema03.png" alt="">
+								  	<?php  } elseif ($id==2) {$b='class="active"';?>
+									<img src="img/yellow_ink.png" alt="">
+								  	<?php }else{ $c='class="active"';?>
+									<img src="img/toner01.png" alt="">
+								  	<?php } ?>
 								  </div>
 								</div>
 								
 								<ol class="carousel-indicators">
-								  <li data-target="#itemsingle" data-slide-to="0" class="active"><img src="img/cyan_ink.png" alt=""></li>
-								  <li data-target="#itemsingle" data-slide-to="1" class=""><img src="img/cyan_ink.png" alt=""></li>
-								  <li data-target="#itemsingle" data-slide-to="2" class=""><img src="img/cyan_ink.png" alt=""></li>
+									<?php if($id==1){ $a='class="active"';?>
+									<li data-target="#itemsingle" data-slide-to="0" class="active"><img src="img/sistema01.png" alt=""></li>
+									<li data-target="#itemsingle" data-slide-to="1" class=""><img src="img/sistema02.png" alt=""></li>
+									<li data-target="#itemsingle" data-slide-to="2" class=""><img src="img/sistema03.png" alt=""></li>
+									<?php  } elseif ($id==2) {$b='class="active"';?>
+									<li data-target="#itemsingle" data-slide-to="0" class="active"><img src="img/cyan_ink.png" alt=""></li>
+									<li data-target="#itemsingle" data-slide-to="1" class=""><img src="img/magenta_ink.png" alt=""></li>
+									<li data-target="#itemsingle" data-slide-to="2" class=""><img src="img/yellow_ink.png" alt=""></li>
+								  	<?php }else{ $c='class="active"';?>
+									<li data-target="#itemsingle" data-slide-to="0" class="active"><img src="img/toner01.png" alt=""></li>
+									<li data-target="#itemsingle" data-slide-to="1" class=""><img src="img/sistema02.png" alt=""></li>
+									<li data-target="#itemsingle" data-slide-to="2" class=""><img src="img/sistema03.png" alt=""></li>
+								  	<?php } ?>
+								  
 								</ol>
 							
 							</div>
