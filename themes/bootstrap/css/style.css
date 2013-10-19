@@ -16,9 +16,12 @@ p{
 	color: #009FF2;
 }
 
-.thumbnail:hover{
+.thumbnails>li:hover{
 	/*color: red;*/
 	box-shadow: 8px 8px 5px #7A7A7A;
+	position:relative;
+	top:-2px;
+	/*right:-2px;*/
 }
 
 /*
