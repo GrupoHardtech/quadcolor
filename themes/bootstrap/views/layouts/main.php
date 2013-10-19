@@ -107,7 +107,7 @@ switch($this->action->id)
 			<div class="row-fluid">
 				<div class="span12">
 					<h3>Sigamos en contacto</h3>
-					<p>Para estar siempre en contacto y saber las ultimas noticias de nosotros, puedes hacerlo mediante las redes sociales.</p>
+					<p class="text-center">Para estar siempre en contacto y saber las ultimas noticias de nosotros, puedes hacerlo mediante las redes sociales.</p>
 					<div class="icon">
 						<!-- <span class="twitter"><a href="#" class="social-icon"><i class="icon-twitter"></i></a></span> -->
 						<!-- <span class="linkedin"><a href="#" class="social-icon"><i class="icon-linkedin"></i></a></span> -->

@@ -24,7 +24,7 @@
 					<h2>Estos son nuestros productos</h2>
 					<!-- <p>Display all item with category Border Canary</p> -->
 					<br>
-					<ul class="thumbnails">
+					<ul id="products-list" class="thumbnails">
 					  <li class="span4">
 						<div class="thumbnail">
 						  <?php echo CHtml::link('<img src="img/sistema01.png" alt="" />',array('site/detail','id'=>'1')); ?>

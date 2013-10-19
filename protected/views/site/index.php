@@ -56,7 +56,7 @@
 			<div class="span12">
 				<h2>Productos</h2>
 				<p>Nuestros productos</p>
-				<ul class="thumbnails">
+				<ul id="products-list" class="thumbnails">
 					<li class="span4">
 						<div class="thumbnail">
 							<?php echo CHtml::link('<img src="img/sistema01.png" alt="" />',array('site/detail','id'=>'1')); ?>

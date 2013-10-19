@@ -16,7 +16,7 @@ p{
 	color: #009FF2;
 }
 
-.thumbnails>li:hover{
+#products-list>li:hover{
 	/*color: red;*/
 	box-shadow: 8px 8px 5px #7A7A7A;
 	position:relative;
